@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		BCA253331B13975E00445133 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA253321B13975E00445133 /* AppDelegate.swift */; };
-		BCA253351B13975E00445133 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA253341B13975E00445133 /* ViewController.swift */; };
+		BCA253351B13975E00445133 /* RSBViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA253341B13975E00445133 /* RSBViewController.swift */; };
 		BCA253381B13975E00445133 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCA253361B13975E00445133 /* Main.storyboard */; };
 		BCA2533A1B13975E00445133 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA253391B13975E00445133 /* Images.xcassets */; };
 		BCA2533D1B13975E00445133 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCA2533B1B13975E00445133 /* LaunchScreen.xib */; };
 		BCA253491B13975E00445133 /* My_RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA253481B13975E00445133 /* My_RoshamboTests.swift */; };
+		BCA253531B139AD800445133 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA253521B139AD800445133 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +30,14 @@
 		BCA2532D1B13975E00445133 /* My Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Roshambo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA253311B13975E00445133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCA253321B13975E00445133 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCA253341B13975E00445133 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCA253341B13975E00445133 /* RSBViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSBViewController.swift; sourceTree = "<group>"; };
 		BCA253371B13975E00445133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCA253391B13975E00445133 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BCA2533C1B13975E00445133 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BCA253421B13975E00445133 /* My RoshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My RoshamboTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCA253471B13975E00445133 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCA253481B13975E00445133 /* My_RoshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_RoshamboTests.swift; sourceTree = "<group>"; };
+		BCA253521B139AD800445133 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				BCA253321B13975E00445133 /* AppDelegate.swift */,
-				BCA253341B13975E00445133 /* ViewController.swift */,
+				BCA253341B13975E00445133 /* RSBViewController.swift */,
 				BCA253361B13975E00445133 /* Main.storyboard */,
+				BCA253521B139AD800445133 /* ResultViewController.swift */,
 				BCA253391B13975E00445133 /* Images.xcassets */,
 				BCA2533B1B13975E00445133 /* LaunchScreen.xib */,
 				BCA253301B13975E00445133 /* Supporting Files */,
@@ -212,8 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCA253351B13975E00445133 /* ViewController.swift in Sources */,
+				BCA253351B13975E00445133 /* RSBViewController.swift in Sources */,
 				BCA253331B13975E00445133 /* AppDelegate.swift in Sources */,
+				BCA253531B139AD800445133 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
